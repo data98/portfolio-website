@@ -1,9 +1,9 @@
 const App = () => {
   return (
     <div>
-      <h1>Welcome to my portfolio</h1>
+      <h1 class="text-3xl font-bold underline">My Portfolio</h1>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
