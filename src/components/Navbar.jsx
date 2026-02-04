@@ -1,4 +1,4 @@
-import { navLinks } from "#constants";
+import { navIcons, navLinks } from "#constants";
 
 const Navbar = () => {
   return (
@@ -11,6 +11,16 @@ const Navbar = () => {
           {navLinks.map(({ id, name }) => (
             <li key={id}>
               <p>{name}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <ul>
+          {navIcons.map(({id, img}) => (
+            <li key={id}>
+              <img className="icon-hover" src={img} alt={`icon-${id}`} />
             </li>
           ))}
         </ul>
