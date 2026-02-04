@@ -1,3 +1,5 @@
+import dayjs from "dayjs";
+
 import { navIcons, navLinks } from "#constants";
 
 const Navbar = () => {
@@ -5,7 +7,7 @@ const Navbar = () => {
     <nav>
       <div>
         <img src="/images/logo.svg" alt="logo" />
-        <p className="font-bold">Davit's Portfolio</p>
+        <p className="font-bold text-nowrap">Davit's Portfolio</p>
 
         <ul>
           {navLinks.map(({ id, name }) => (
@@ -24,6 +26,8 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <time className="text-nowrap">{dayjs().format("ddd MMM d h:mm A")}</time>
       </div>
     </nav>
   );
