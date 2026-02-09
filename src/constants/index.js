@@ -225,7 +225,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Hacker News",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,30 +233,37 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Hacker News.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "This project is a Hacker News clone coded using native JS, to get a deep dive in the language.",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "demo",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://hacker-news-clone-data98.netlify.app/",
           position: "top-10 right-20",
         },
         {
+          id: 3,
+          name: "github",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/data98/hacker-news-clone?tab=readme-ov-file",
+          position: "top-15 right-50",
+        },
+        {
+          //TODO
           id: 4,
-          name: "nike.png",
+          name: "hacker-news.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -278,7 +285,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Chromafun",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -286,30 +293,37 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Chromafun desc.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "A premium, color scheme generator for designers.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "demo",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://chromafun.vercel.app/",
           position: "top-20 left-20",
         },
         {
+          id: 3,
+          name: "github",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/data98/color-scheme-generator?tab=readme-ov-file",
+          position: "top-15 left-50",
+        },
+        {
+          // TODO
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "chromafun.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -331,7 +345,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Movie Watchlist",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,30 +353,37 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Movie watchlist.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "A Next.js 15 app built with shadcn/ui to search movies (OMDb API) and save them to a watchlist.",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "demo",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://movie-watchlist-project.vercel.app/",
           position: "top-10 right-20",
         },
         {
+          id: 3,
+          name: "github",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/data98/movie-watchlist?tab=readme-ov-file",
+          position: "top-15 right-50",
+        },
+        {
+          // TODO
           id: 4,
-          name: "food-delivery-app.png",
+          name: "movie-watchlist.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
