@@ -1,10 +1,11 @@
-import { dockApps } from "#constants";
+import { dockApps, locations } from "#constants";
 import { Tooltip } from "react-tooltip";
 import gsap from "gsap";
 
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import useWindowStore from "#store/window";
+import useLocationStore from "#store/location";
 
 const Dock = () => {
   const { openWindow, closeWindow, windows } = useWindowStore()
@@ -59,6 +60,12 @@ const Dock = () => {
   const toggleApp = (app) => {
     if (!app.canOpen) return;
 
+    if (app.id === "trash") {
+      openWindow("finder");
+      useLocationStore.getState().setActiveLocation(locations.trash);
+      return;
+    }
+
     const window = windows[app.id]
 
     if (!window) {
@@ -92,7 +99,7 @@ const Dock = () => {
                 src={`/images/${icon}`}
                 alt={name}
                 loading="lazy"
-                className={canOpen ? "" : "opacity-60" }
+                className={canOpen ? "" : "opacity-60"}
               />
 
             </button>

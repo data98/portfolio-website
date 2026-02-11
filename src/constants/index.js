@@ -75,28 +75,28 @@ const dockApps = [
 ];
 
 const blogPosts = [
-  {
-    id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
-  },
-  {
-    id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-  },
-  {
-    id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-  },
+  // {
+  //   id: 1,
+  //   date: "Sep 2, 2025",
+  //   title:
+  //     "",
+  //   image: "/images/blog1.png",
+  //   link: "",
+  // },
+  // {
+  //   id: 2,
+  //   date: "Aug 28, 2025",
+  //   title: "",
+  //   image: "/images/blog2.png",
+  //   link: "",
+  // },
+  // {
+  //   id: 3,
+  //   date: "Aug 15, 2025",
+  //   title: "",
+  //   image: "/images/blog3.png",
+  //   link: "",
+  // },
 ];
 
 const techStack = [
@@ -132,28 +132,28 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/data98",
   },
-  {
-    id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://jsmastery.com/",
-  },
-  {
-    id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
-  },
+  // {
+  //   id: 2,
+  //   text: "Platform",
+  //   icon: "/icons/atom.svg",
+  //   bg: "#4bcb63",
+  //   link: "",
+  // },
+  // {
+  //   id: 3,
+  //   text: "Twitter/X",
+  //   icon: "/icons/twitter.svg",
+  //   bg: "#ff866b",
+  //   link: "",
+  // },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "http://linkedin.com/in/dgoderdz",
   },
 ];
 
@@ -188,20 +188,20 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/gal1.jpeg",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/gal2.jpg",
   },
-  {
-    id: 3,
-    img: "/images/gal3.png",
-  },
-  {
-    id: 4,
-    img: "/images/gal4.png",
-  },
+  // {
+  //   id: 3,
+  //   img: "/images/gal3.png",
+  // },
+  // {
+  //   id: 4,
+  //   img: "/images/gal4.png",
+  // },
 ];
 
 export {
@@ -261,7 +261,6 @@ const WORK_LOCATION = {
           position: "top-15 right-50",
         },
         {
-          //TODO
           id: 4,
           name: "hacker-news.png",
           icon: "/images/image.png",
@@ -321,7 +320,6 @@ const WORK_LOCATION = {
           position: "top-15 left-50",
         },
         {
-          // TODO
           id: 4,
           name: "chromafun.png",
           icon: "/images/image.png",
@@ -381,7 +379,6 @@ const WORK_LOCATION = {
           position: "top-15 right-50",
         },
         {
-          // TODO
           id: 4,
           name: "movie-watchlist.png",
           icon: "/images/image.png",
@@ -418,7 +415,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/davit.jpg",
+      imageUrl: "/images/davit.jpeg",
     },
     {
       id: 2,
@@ -429,15 +426,15 @@ const ABOUT_LOCATION = {
       position: "top-28 right-72",
       imageUrl: "/images/davit-2.jpg",
     },
-    {
-      id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/davit-3.jpeg",
-    },
+    // {
+    //   id: 3,
+    //   name: "conference-me.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-52 left-80",
+    //   imageUrl: "/images/davit-3.jpeg",
+    // },
     {
       id: 4,
       name: "about-me.txt",
@@ -446,7 +443,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/davit.jpg",
+      image: "/images/davit.jpeg",
       description: [
         "Hey! I’m Davit 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "I specialize in JavaScript, React, and Next.js and I love making things feel smooth, fast, and just a little bit delightful.",
