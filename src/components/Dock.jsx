@@ -80,7 +80,7 @@ const Dock = () => {
           <div key={id} className="relative flex justify-center">
             <button
               type="button"
-              className="dock-icon"
+              className={`dock-icon ${id === "trash" && "p-1"}`}
               aria-label={name}
               data-tooltip-id="dock-tooltip"
               data-tooltip-content={name}
@@ -92,7 +92,7 @@ const Dock = () => {
                 src={`/images/${icon}`}
                 alt={name}
                 loading="lazy"
-                className={canOpen ? "" : "opacity-60"}
+                className={canOpen ? "" : "opacity-60" }
               />
 
             </button>
