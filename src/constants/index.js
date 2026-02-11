@@ -418,7 +418,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/Davit.jpg",
+      imageUrl: "/images/davit.jpg",
     },
     {
       id: 2,
@@ -427,7 +427,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/Davit-2.jpg",
+      imageUrl: "/images/davit-2.jpg",
     },
     {
       id: 3,
@@ -436,7 +436,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/Davit-3.jpg",
+      imageUrl: "/images/davit-3.jepg",
     },
     {
       id: 4,
@@ -446,10 +446,10 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/Davit-4.jpg",
+      image: "/images/davit.jpg",
       description: [
         "Hey! I’m Davit 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
+        "I specialize in JavaScript, React, and Next.js and I love making things feel smooth, fast, and just a little bit delightful.",
         "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
         "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
       ],
