@@ -15,7 +15,7 @@ const Text = () => {
     <>
       <div id="window-header">
         <WindowControls target="txtfile" />
-        <h2>{name}</h2>
+        <p>{name}</p>
       </div>
 
       <div className="p-5 space-y-6 bg-white min-h-72 max-h-[calc(100vh-20vh)] overflow-y-auto">
