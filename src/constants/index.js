@@ -436,7 +436,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/davit-3.jepg",
+      imageUrl: "/images/davit-3.jpeg",
     },
     {
       id: 4,
